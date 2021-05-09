@@ -61,6 +61,7 @@ export default class CarDetails extends LightningElement {
 
         this.selectedTabValue = 'viewexperience';
     }
+
     get carFound(){
         if(this.car.data){
             return true;
