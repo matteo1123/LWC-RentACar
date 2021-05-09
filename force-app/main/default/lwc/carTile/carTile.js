@@ -11,7 +11,7 @@ export default class CarTile extends LightningElement {
     handleCarSelect(event) {
         event.preventDefault();
 
-        const carId = this.car.Id;
+        const carId = this.car;
 
         const carSelect = new CustomEvent('carselect', {detail: carId});
 
